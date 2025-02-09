@@ -21,7 +21,7 @@ Dazul = [(32, 100, -128, -8, 27, 125)]
 Damarillo = [(32, 100, -128, -8, 27, 125)]
 
 #Funcion de limite de valores de motores
-def constrain(val, min_val, max_val) =>
+def constrain(val, min_val, max_val):
     if val < min_val: return min_val
     if val > max_val: return max_val
     return val
